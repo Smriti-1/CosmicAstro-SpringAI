@@ -1,0 +1,102 @@
+body {
+          font-family: "Poppins", sans-serif;
+          background: linear-gradient(120deg, #020617, #0f172a);
+          color: #e5e7eb;
+          min-height: 100vh;
+        }
+
+        .card-dark {
+          background: #020617;
+          border-radius: 16px;
+          padding: 28px;
+          box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+        }
+
+        h2 {
+          font-weight: 600;
+        }
+
+        .form-control {
+          background: #020617;
+          border: 1px solid #334155;
+          color: #e5e7eb;
+        }
+
+        .form-control:focus {
+          border-color: #6366f1;
+          box-shadow: none;
+        }
+
+        .btn-astro {
+          background: linear-gradient(135deg, #6366f1, #8b5cf6);
+          border: none;
+          font-weight: 600;
+          padding: 12px;
+        }
+
+        /* ANSWER FORMATTING */
+        #answer h1 {
+          font-size: 26px;
+          font-weight: 600;
+          color: #a5b4fc;
+          margin-bottom: 14px;
+        }
+
+        #answer h2 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #c7d2fe;
+          margin-top: 22px;
+          margin-bottom: 10px;
+        }
+
+        #answer strong {
+          color: #f8fafc;
+        }
+
+        #answer p {
+          font-size: 15px;
+          line-height: 1.7;
+          margin-bottom: 12px;
+        }
+
+        #answer ul {
+          padding-left: 20px;
+          margin-bottom: 16px;
+        }
+
+        #answer li {
+          margin-bottom: 8px;
+        }
+
+        /* LOADER */
+        .loader {
+          display: none;
+          text-align: center;
+          padding: 40px 0;
+        }
+
+        .orbit {
+          width: 48px;
+          height: 48px;
+          border: 3px solid #334155;
+          border-top: 3px solid #8b5cf6;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+          margin: 0 auto 12px;
+        }
+
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+
+        .loader-text {
+          font-size: 14px;
+          color: #94a3b8;
+        }
+
+        @media (max-width: 768px) {
+          .mt-mobile {
+            margin-top: 20px;
+          }
+        }
